@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/count"
+            android:layout_toRightOf="@+id/count"
+            android:layout_toEndOf="@+id/count"
+            android:layout_marginLeft="75dp"
+            android:layout_marginStart="75dp"
+            android:id="@+id/ca" />
+
+        <TextView
+            android:text="卡洛里(cal):"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="168dp"
+            android:id="@+id/calt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="137dp"
+            android:layout_marginEnd="137dp"
+            android:layout_marginTop="166dp"
+            android:id="@+id/cal" />
+
+        <TextView
+            android:text="總消費金額:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="58dp"
+            android:id="@+id/count"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/calt"
+            android:layout_alignStart="@+id/calt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="159dp"
+            android:layout_marginStart="159dp"
+            android:layout_marginTop="34dp"
+            android:id="@+id/table" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/calt"
+            android:layout_alignLeft="@+id/calt"
+            android:layout_alignStart="@+id/calt"
+            android:layout_marginTop="150dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
